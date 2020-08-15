@@ -15,4 +15,17 @@ contract Employee{
         age = newage;
         sallary = newsallary;
     }
+    function setnewEmployeeDetails(string newEmp_name, uint newEmp_id, string newcity, uint newage, uint newsallary)public{
+        
+        Emp_name = newEmp_name;
+        Emp_id = newEmp_id;
+        city = newcity;
+        age = newage;
+        sallary = newsallary;
+        
+        
+    }
+     function getLandCurrentDetails() public view returns(string,uint,string,uint,uint){
+        return(Emp_name,Emp_id,city,age,sallary);
+     }
 }
