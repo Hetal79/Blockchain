@@ -1,0 +1,28 @@
+pragma solidity =0.4.21 <0.6.12;
+
+contract TicketData{
+    
+    string Ticket_no;
+    uint ticket_price;
+    string Ticket_date;
+    string time;
+    
+    function TicketData(string newTicket_no, uint newticket_price, string newTicket_date, string newtime)public{
+        
+        Ticket_no = newTicket_no;
+        ticket_price = newticket_price;
+        Ticket_date= newTicket_date;
+        time= newtime;
+    }
+     function setnewTicketData(string newTicket_no, uint newticket_price, string newTicket_date, string newtime)public{
+        
+        Ticket_no = newTicket_no;
+        ticket_price = newticket_price;
+        Ticket_date= newTicket_date;
+        time= newtime;
+        
+    }
+     function getLandCurrentDetails() public view returns(string,uint,string,string){
+        return(Ticket_no,ticket_price,Ticket_date,time);
+     }
+}
