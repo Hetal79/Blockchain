@@ -1,0 +1,21 @@
+# Day1-Assignment
+
+Q.(1) What is your Understanding of BlockChain?
+Ans:- Blockchain is a system of recording information in a way that  makes it difficult or impossible to change, hack or cheat the system.
+Q.(2) What is the core problem blockchain trying to solve?
+Ans:- i. Authenticity 
+     ii. Security 
+     iii. Need of powerful third party for trust.
+Q.(3) What are the few features which blockchain will give you?
+ANs:-i. Verifiable 
+    ii. Temper-proof 
+    iii.Unchangeable 
+    iv. Immutable
+Q.(4) What all things does a block contain?
+Ans:-i. Block number 
+    ii. Transaction record 
+    iii. Previous block signature 
+    iv. mining key 
+Q.(5) How is the Verifiability of Blockchain is been atteined?
+Ans:- Firstly it is a series of cryptographic hashes so one change can change all the hashes so it is difficult to temper.
+      secondly it is distributed ledger which means every one will have a copy of data so if we will delete it our data is lost we can take some copy from others.
